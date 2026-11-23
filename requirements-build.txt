@@ -1,0 +1,5 @@
+# Build-only dependencies for producing the self-contained .exe (see build.bat).
+# Install with:  python -m pip install -r requirements-build.txt
+-r requirements.txt
+pyinstaller>=6.6
+pyinstaller-hooks-contrib>=2024.0

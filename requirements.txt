@@ -1,0 +1,16 @@
+# Runtime dependencies for the standalone Imagery Browser (no ArcGIS Pro needed).
+# Install with:  python -m pip install -r requirements.txt
+#
+# Required — the GUI and core features:
+Pillow>=10,<13
+numpy>=1.24
+
+# Recommended — native-quality basemaps, full raster metadata, and on-the-fly
+# reprojection. Without these the app still runs; basemap and raster-metadata
+# features degrade gracefully (handled by try/except guards in scanner.py and
+# ui/tile_loader.py).
+rasterio>=1.3
+pyproj>=3.5
+
+# Note: arcpy is intentionally NOT listed. It ships only with ArcGIS Pro and is
+# optional — when present it enables pushing footprints into a live Pro map.

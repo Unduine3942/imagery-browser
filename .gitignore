@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build artifacts (PyInstaller)
+build/
+dist/
+
+# Coverage
+htmlcov/
+.coverage
+
+# Logs
+*.log
+
+# SQLite journal artifacts (basemap mbtiles WAL/SHM)
+*.mbtiles-shm
+*.mbtiles-wal

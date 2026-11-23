@@ -1,0 +1,22 @@
+SELFTEST PASS
+OK    tkinter
+OK    PIL.Image
+OK    PIL.ImageTk
+OK    numpy
+OK    config
+OK    models
+OK    nitf
+OK    scanner
+OK    imagery_manager
+OK    footprint_manager
+OK    downloader
+OK    airgapped_transfer
+OK    clipper
+OK    ui.app
+OK    ui.startup
+OK    ui.map_canvas
+OK    ui.tile_loader
+OK    ui.image_viewer
+OK    rasterio (optional)
+OK    pyproj (optional)
+SKIP  osgeo (optional, not bundled): No module named 'osgeo'
